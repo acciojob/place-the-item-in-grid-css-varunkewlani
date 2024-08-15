@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder
+{
+	width:200px;
+	font-size:20px;
+	font-weight:bolder;
+	color:black;
+	display:grid;
+	grid-template-columns:repeat(2,20px);
+	grid-template-rows:repeat(2,20px)
+}
