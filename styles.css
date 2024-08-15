@@ -2,11 +2,13 @@
 /* Your CSS Code here. */
 .holder
 {
+	height:200px;
 	width:200px;
+	background-color:red;
 	font-size:20px;
 	font-weight:bolder;
 	color:black;
 	display:grid;
-	grid-template-columns:repeat(2,20px);
-	grid-template-rows:repeat(2,20px)
+	grid-template-columns:repeat(2,100px);
+	grid-template-rows:repeat(2,100px)
 }
